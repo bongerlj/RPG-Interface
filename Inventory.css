@@ -1,0 +1,211 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body
+{
+    background: #d19d23;
+}
+
+#title{
+    font-size: 32pt;
+    text-align: center;
+}
+
+#equip{
+    position: absolute;
+    right: 2%;
+    top: 15%;
+}
+
+#man{
+    position: absolute;
+    right: 7%;
+    top: 30%;
+}
+
+#personalInventory{
+    position: absolute;
+    left: 27%;
+    top: 15%;
+}
+
+#lHand{
+    position: absolute;
+    right: 20%;
+    top: 35%;
+}
+
+#rHand{
+    position: absolute;
+    right: 5%;
+    top: 35%;
+}
+
+#armour{
+    position: absolute;
+    right: 12.5%;
+    top: 48%;
+}
+
+#lhText{
+    position: absolute;
+    right: 18%;
+    top: 41.5%;
+}
+
+#rhText{
+    position: absolute;
+    right: 1.5%;
+    top: 41.5%;
+}
+
+#aText{
+    position: absolute;
+    right: 11.5%;
+    top: 54%;
+}
+
+#checkboxStuff{
+    position: absolute;
+    left: 0%;
+    top: 15%;
+}
+
+#controls{
+    position: absolute;
+    left: 2%;
+    top: 47%;
+}
+
+.inventory-table
+{
+
+}
+
+.inventory-row
+{
+    
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start; /* align items in Main Axis */
+	align-items: flex-start; /* align items in Cross Axis */
+	align-content: flex-start; /* Extra space in Cross Axis */
+}
+
+
+.inventory-cell
+{
+    width: 36px;
+    height: 36px;
+    
+    flex-shrink: 0;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* align items in Main Axis */
+    align-items: center; /* align items in Cross Axis */
+    align-content: center; /* Extra space in Cross Axis */
+    
+    background-image: url('http://i.imgur.com/nOqKSbE.png');
+    background-position: -229px -331px;
+}
+
+
+/* ITEMS */
+
+.inventory-item
+{
+    width: 34px;
+    height: 34px;
+    
+    cursor: hand;
+    cursor: pointer;
+    
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+.inventory-item-sortable-placeholder
+{
+    display: none;
+}
+
+.inventory-item.ui-sortable-helper, .inventory-item.ui-draggable-dragging
+{
+    opacity: .6;
+}
+
+.inventory-item.sword
+{
+    background-image: url("images/sword1.png");
+    background-size: 100%;
+    background-size:cover;
+    opacity: 0.25;
+}
+.inventory-item.axe
+{
+    background-image: url("images/axe1.png");
+    background-size: 100%;
+    background-size:cover;
+    opacity: 0.25;
+}
+.inventory-item.armor1
+{
+    background-image: url("images/armor1.png");
+    background-size: 100%;
+    background-size:cover;
+    opacity: 0.25;
+}
+
+.inventory-item.armor2
+{
+    background-image: url("images/armor2.png");
+    background-size: 100%;
+    background-size:cover;
+    opacity: 0.25;
+}
+
+.inventory-item.shield1
+{
+    background-image: url("images/shield1.png");
+    background-size: 100%;
+    background-size:cover;
+    opacity: 0.25;
+}
+
+.inventory-item.shield2
+{
+    background-image: url("images/shield2.png");
+    background-size: 100%;
+    background-size:cover;
+    opacity: 0.5;
+}
+
+.inventory-item.spell1
+{
+    background-image: url("images/spell1.png");
+    background-size: 100%;
+    background-size:cover;
+    opacity: 0.25;
+}
+
+.inventory-item.spell2
+{
+    background-image: url("images/spell2.png");
+    background-size: 100%;
+    background-size:cover;
+    opacity: 0.25;
+}
+
+
+/*On hover box*/
+#itemCharacteristics{
+    position: absolute;
+    background-color: #8F8F8F;
+    width: 120px;
+    visibility: hidden;
+}

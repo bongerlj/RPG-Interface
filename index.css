@@ -1,0 +1,154 @@
+body{
+  background-image: url("images/backdrop.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+#b1{
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/1.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+}
+
+#b2{
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/2.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+}
+
+#b3{
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/3.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+}
+
+#b4{
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/4.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+}
+
+#b5{
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/5.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+}
+
+#b6{
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/6.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+}
+
+#b7{
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/7.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+}
+
+#b8{
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/8.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+}
+
+#b9{
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/9.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+}
+
+#b0{
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/10.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+
+/*  background: transparent;
+  border: none !important;
+  font-size:0;*/
+}
+
+#mapButton {
+  position:relative;
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/globe.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+  background-color: Transparent;
+  top: -37px;
+  left: -73px;
+  border: none;
+  opacity: 0;
+
+/*  background: transparent;
+  border: none !important;
+  font-size:0;*/
+}
+
+#gear{
+  background-size: 100%;
+  background-size:cover;
+  background-image: url("images/gear.png");
+  background-repeat:no-repeat;
+  padding: 20px 20px;
+}
+
+#bag{
+  background-size: 100%;
+  background-image: url("images/bag.png");
+  background-repeat:no-repeat;
+  font-size: 40px;
+  padding: 45px 33px;
+  background-color: Transparent;
+  border: none;
+}
+
+.taskBar{
+  position:absolute;
+  bottom:0px;
+  right:25%;
+  left:47%;
+  margin-left:-200px;
+}
+
+.inventoryBag{
+  position:absolute;
+  bottom:0px;
+  right:25%;
+  left:50%;
+  margin-left: 500px;
+}
+
+#secondaryWindow{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 300px;
+    margin-top: -150px; /*set to a negative number 1/2 of your height*/
+    margin-left: -250px; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    visibility: visible;
+}
